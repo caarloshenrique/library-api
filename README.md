@@ -13,7 +13,6 @@
 ```
 $ git clone https://github.com/caarloshenrique/library-api.git
 $ cd library-api
-$ node ./setup.js
 $ yarn
 $ cp .env.example .env # ajustar os parâmetros de configuração
 $ yarn dev
