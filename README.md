@@ -28,9 +28,9 @@ Para subir as imagens execute o comando no projeto:
 $ docker-compose up
 ```
 
-#### Serviços :wrench:
+#### Serviços
 
-##### MongoDB :herb:
+##### MongoDB
 
 Painel de Administração:
 
