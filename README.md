@@ -1,6 +1,6 @@
 # library-api
 
-> Uma API NodeJS para gerenciamento de livros de uma biblioteca.
+> :blue_book: Uma API NodeJS para gerenciamento de livros de uma biblioteca.
 
 ## Requisitos
 
