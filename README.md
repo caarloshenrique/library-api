@@ -1,11 +1,11 @@
-# Template básico NodeJS + Mongoose
+# library-api
 
-Template para projetos básicos em NodeJS + Mongoose.
+> Uma API NodeJS para gerenciamento de livros de uma biblioteca.
 
 ## Requisitos
 
 - NodeJS LTS (ou superior)
-- Postgres/MongoDB/Redis
+- MongoDB
 - Docker (opcional)
 
 ### Uso
@@ -13,8 +13,8 @@ Template para projetos básicos em NodeJS + Mongoose.
 1. Clonar o repositório:
 
 ```sh
-$ git clone git@github.com:DevSamurai/nodejs-template-mongoose-basic.git [ProjectName]
-$ cd [ProjectName]
+$ git clone https://github.com/caarloshenrique/library-api.git
+$ cd library-api
 $ node ./setup.js
 $ yarn
 $ cp .env.example .env # ajustar os parâmetros de configuração
@@ -33,20 +33,6 @@ $ docker-compose up
 
 #### Serviços
 
-##### Postgres
-
-Painel de Administração:
-
-* Administração: http://localhost:8000
-* Usuário: `admin@admin.com`
-* Senha: `secret`
-
-Banco de Dados:
-
-* Usuário: `postgres`
-* Senha: `secret`
-* BD: `develop`
-
 ##### MongoDB
 
 Painel de Administração:
@@ -57,19 +43,6 @@ Banco de Dados:
 
 * Usuário: `root`
 * Senha: `secret`
-
-##### Redis
-
-Painel de Administração:
-
-* Administração: http://localhost:8002
-
-## Dúvidas
-
-Se você curtiu esse projeto ou está com dúvidas acesse:
-
-* O Guia com todo o passo a passo explicativo em https://guia.devsamurai.com.br
-* Nossa comunidade Samurai no Discord acesse https://lp.devsamurai.com.br/discord
 
 ## Licença
 
