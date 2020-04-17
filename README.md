@@ -2,17 +2,15 @@
 
 > :blue_book: Uma API NodeJS para gerenciamento de livros de uma biblioteca.
 
-## Requisitos
+## Requisitos :clipboard:
 
-- NodeJS LTS (ou superior)
-- MongoDB
-- Docker (opcional)
+* [NodeJS LTS (ou superior)](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [Docker (opcional)](https://www.docker.com/)
 
-### Uso
+### Uso :hammer_and_wrench:
 
-1. Clonar o repositório:
-
-```sh
+```
 $ git clone https://github.com/caarloshenrique/library-api.git
 $ cd library-api
 $ node ./setup.js
@@ -21,9 +19,9 @@ $ cp .env.example .env # ajustar os parâmetros de configuração
 $ yarn dev
 ```
 
-### Executando o Docker via Compose
+### Executando o Docker via Compose :whale:
 
-O arquivo `docker-compose.yml` já contém a imagens para sistemas de banco de dados Postgres, MongoDB e Redis, com seus devidos sistemas de administração.
+O arquivo `docker-compose.yml` já contém as imagens para sistema de banco de dados MongoDB, com seu devido sistema de administração.
 
 Para subir as imagens execute o comando no projeto:
 
@@ -31,9 +29,9 @@ Para subir as imagens execute o comando no projeto:
 $ docker-compose up
 ```
 
-#### Serviços
+#### Serviços :wrench:
 
-##### MongoDB
+##### MongoDB :herb:
 
 Painel de Administração:
 
@@ -44,6 +42,6 @@ Banco de Dados:
 * Usuário: `root`
 * Senha: `secret`
 
-## Licença
+## Licença :page_facing_up:
 
-MIT
+[MIT](/LICENSE) &copy; Carlos Henrique da Costa Silva
