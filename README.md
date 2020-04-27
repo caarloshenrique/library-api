@@ -18,7 +18,7 @@ $ cp .env.example .env # ajustar os parâmetros de configuração
 $ yarn dev
 ```
 
-## Executando o Docker via Compose :whale:
+### Executando o Docker via Compose :whale:
 
 O arquivo `docker-compose.yml` já contém as imagens para sistema de banco de dados MongoDB, com seu devido sistema de administração.
 
@@ -28,9 +28,9 @@ Para subir as imagens execute o comando no projeto:
 $ docker-compose up
 ```
 
-### Serviços
+#### Serviços
 
-#### MongoDB
+##### MongoDB
 
 Painel de Administração:
 
