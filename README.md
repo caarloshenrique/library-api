@@ -2,9 +2,9 @@
 
 > :blue_book: Uma API NodeJS para gerenciamento de livros de uma biblioteca.
 
-## Tecnologias Usadas :rocket: 
+## Tecnologias utilizadas :rocket: 
 
-O projeto foi feito com as seguintes tecnologias:
+O projeto foi feito utilizando as seguintes tecnologias:
 
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
