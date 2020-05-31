@@ -2,7 +2,7 @@
 
 > :blue_book: Uma API NodeJS para gerenciamento de livros de uma biblioteca.
 
-## Tecnologias utilizadas :rocket: 
+## :rocket: Tecnologias utilizadas
 
 O projeto foi feito utilizando as seguintes tecnologias:
 
@@ -12,13 +12,13 @@ O projeto foi feito utilizando as seguintes tecnologias:
 - [Docker](https://www.docker.com/)
 {...}
 
-## Requisitos :clipboard:
+## :clipboard: Requisitos 
 
 * [NodeJS LTS (ou superior)](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/)
 * [Docker (opcional)](https://www.docker.com/)
 
-## Uso :hammer_and_wrench:
+## :hammer_and_wrench: Uso
 
 ```
 $ git clone https://github.com/caarloshenrique/library-api.git
@@ -28,7 +28,7 @@ $ cp .env.example .env # ajustar os parâmetros de configuração
 $ yarn dev
 ```
 
-### Executando o Docker via Compose :whale:
+### :whale: Executando o Docker via Compose
 
 O arquivo `docker-compose.yml` já contém as imagens para sistema de banco de dados MongoDB, com seu devido sistema de administração.
 
@@ -51,7 +51,7 @@ Banco de Dados:
 * Usuário: `root`
 * Senha: `secret`
 
-## Licença :page_facing_up:
+## :page_facing_up: Licença
 Este projeto é desenvolvido sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para saber mais detalhes.
 
 <p align="center" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">Feito com :green_heart: por <strong> Carlos Henrique da Costa Silva </strong> </p>
